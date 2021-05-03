@@ -1,0 +1,49 @@
+\documentclass[cn,10pt,math=newtx,citestyle=gb7714-2015,bibstyle=gb7714-2015]{elegantbook}
+\includeonly{ch1,ch2}
+\title{RFID 射频基础}
+\subtitle{The RF in RFID}
+
+% \author{Ethan Deng \& Liam Huang}
+% \institute{Elegant\LaTeX{} Program}
+\date{May 2, 2021}
+\version{0.0.1}
+\bioinfo{自定义}{信息}
+
+% \extrainfo{各人自扫门前雪，休管他人瓦上霜。—— 陈元靓}
+
+\setcounter{tocdepth}{3}
+
+% \logo{logo-blue.png}
+% \cover{cover.jpg}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+\definecolor{customcolor}{RGB}{32,178,170}
+\colorlet{coverlinecolor}{customcolor}
+
+\begin{document}
+
+\maketitle
+\frontmatter
+
+\chapter*{特别声明}
+
+\markboth{Introduction}{前言}
+
+
+
+\begin{flushright}
+xxxxxxx
+\end{flushright}
+
+\tableofcontents
+
+\mainmatter
+
+\input{ch1}
+\input{ch2}
+
+
+\end{document}
